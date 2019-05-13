@@ -3,8 +3,7 @@ array = [1, 2, 3]
 def square_array(array)
   new_array = []
   array.each do |element|
-  new_element = array.pop 
-  new_element = new_element ** 2
+  new_element = element ** 2
   new_array.push
   
   end
